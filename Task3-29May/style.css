@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(login-image.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.loginbox{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+
+    border-radius: 1.3rem;
+    width: 30%;
+    height: 50%;
+    box-shadow:white 2px,2px;
+    border: 2px solid rgb(255, 227, 227);
+}
+
+.detail{
+margin-top: 1.2;  
+
+}
+input{
+    margin-bottom: 1.2rem;
+}
+h3{
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.input{
+    
+    width: 300px;
+    padding: 0.52rem;
+    border-bottom: 4px solid rgba(109, 109, 102, 0.96);
+    margin-bottom: 1.3rem;
+    font-weight: 400;
+}
+input::placeholder{
+    color: rgb(70, 64, 64);
+    font-weight: 400;
+}
+label{
+    color: white;
+}
+
+button{
+background-color: rgb(50, 186, 32); 
+  padding: 0.743rem;
+  width: 190px;
+  margin-left: 3.7rem;
+  border-bottom: 3px solid white;
+  margin-top: 1.3rem;
+
+text-align: center;
+border-radius: 12px;
+
+}
+
+button a{
+    color: white;
+    font-weight: 600;
+
+    text-decoration: none;
+}
