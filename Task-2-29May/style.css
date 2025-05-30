@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(login-image.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.loginbox{
+
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+
+    border-radius: 1.3rem;
+    width: 30%;
+    height: 70%;
+    
+    border: 2px solid rgb(103, 100, 100);
+    position: absolute;
+}
+
+
+
+.iconbox{
+    width: 40%;
+    height: 38%;
+    position: relative;
+    margin: auto;
+    z-index: 100;
+   
+    border-radius: 50%;
+    bottom: 60px;
+    background-image: url(newavatat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+h3{
+    text-align: center;
+    color: white;
+    
+    margin-bottom: 2.4rem;
+
+}
+
+.input{
+    opacity: 0.5;
+    width: 300px;
+    margin-left: 4.0rem;
+    padding: 0.52rem;
+    border-bottom: 4px solid rgb(254, 132, 67);
+    margin-bottom: 1.3rem;
+    color: white;
+    background-color: rgb(30, 8, 8);
+    font-weight: 400;
+}
+input::placeholder{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+#checkbox{
+    margin-left: 2.3rem;
+    color: white;
+    background-color: white;
+        margin-left: 4.0rem;
+
+}
+label{
+    color: white;
+}
+button{
+background-color: rgb(50, 186, 32); 
+  padding: 0.743rem;
+  width: 190px;
+  margin-left: 8rem;
+  border-bottom: 3px solid white;
+  margin-top: 1.3rem;
+
+text-align: center;
+border-radius: 12px;
+
+}
+button a{
+    color: white;
+    font-weight: 600;
+
+    text-decoration: none;
+}
