@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+
+}
+
+.heading, p{
+    text-align: center;
+
+}
+p{
+    margin-top: 1.4rem;
+}
+
+
+.navbox1{
+    width: 140px;
+    height: 140px;
+    margin-top: 1.2rem;
+    border-top-right-radius:23px ;
+    border-bottom-right-radius:23px ;
+    background-color: aqua;
+    border: 0.0912rem solid black;
+    transition: all linear 0.3s;
+}
+.navbox1:hover{
+    transform:scale(1.2);
+}
+
+.navbox1:nth-child(1){
+    background-color: blue;
+}
+.navbox1:nth-child(2){
+    background-color: rgb(0, 255, 42);
+}.navbox1:nth-child(3){
+    background-color: rgb(242, 0, 255);
+}
